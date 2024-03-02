@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: row ;
+        }
+        /* .main{
+            border: 2px solid black;
+            background-color: brown;
+            height: 500px;
+            width: 600px;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }*/
+        .box{
+            border: 5px solid black;
+            background-color:white;
+            height: 500px;
+            width: 500px;
+            margin: 20px; }
+    
+        #txt1{
+            text-shadow: 2px 2px ;
+        }
+        #txt2{
+            text-shadow: 2px 2px  red;
+        }
+        #txt3{
+            text-shadow: 2px 2px  2px brown;
+        }
+        #txt4{
+            color: white;
+            text-shadow: 2px 2px black;
+        }
+        #txt5{
+            color: white;
+            text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+        }
+        #txt6 {
+            color: blue;
+            
+        }
+        .container{
+            border: 5px solid black;
+            background-color: blanchedalmond;
+            height: 500px;
+            width: 500px;
+         margin: 20px;
+         box-shadow: 20px 10px 10px 15px black  ; 
+            /* padding: 10px; */
+            /* float: right; */
+        }
+        img{
+            height: 430px;
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="box">
+            1. can only specify the horizontal shadow and the vertical shadow and
+            The default colour of the shadow is the current text-colour.
+            <h2 id="txt1">Apply text shadow</h2>
+            2. add a color to the shadow:
+            <h2 id="txt2">Apply text shadow</h2>
+           3. add a blur effect to the shadow:
+            <h2 id="txt3">Apply text shadow</h2>
+            4. The following example shows a white text with black shadow:
+            <h2 id="txt4">Apply text shadow</h2>
+            5.The following example shows a white text with black, blue, and darkblue shadow:
+            <h2 id="txt5">Apply text shadow</h2>
+            <h2 id="txt6">Apply text shadow</h2>
+            
+        </div>
+    </div>
+    <div class="container">
+        <h3>USE BOX SHADOW</h3>
+        <img src="img.jpg" alt="">
+
+
+    </div>
+</body>
+</html>
